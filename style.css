@@ -1,0 +1,131 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.logo{
+    width: 70px;
+    height: 70px;
+}
+nav{
+    background-color: #001433;
+    color: beige !important;
+}
+nav a{
+    color: #a5acaf !important;
+}
+nav a:hover, nav a:focus{
+    color: #4dff00 !important;
+}
+
+footer{
+    background-color: #001433;
+    color: #a5acaf;
+}
+footer a{
+    text-decoration: none;
+    color: #a5acaf;
+}
+.main-section{
+    /* background: url("./images/background.jpg"); */
+    font-size: 50px;
+    padding-top: 60px;
+    background-color: #a5acaf;
+}
+.main-section  button{
+    background-color: #001433;
+    color: #a5acaf;
+    padding: 15px;
+    border-radius: 10px;
+    border-color: #001433;
+    margin: 10px;
+}
+.main-section  button:hover, .main-section  button:focus{
+    background-color: #4dff00;
+    color: #001433;
+}
+    nav > ul{
+margin-left: 50px;
+color: green;
+}
+.about{
+    width: 480px;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    background-color: #a5acaf;
+}
+.about h3{
+    font-size: bold;
+    margin-bottom: 20px;
+}
+.about h3::before{
+
+}
+.tokenomics{
+    padding-bottom: 100px;
+}
+.tokenomics p{
+padding: 10px;
+border-radius: 5px;
+border: #001433 solid medium;
+font-size: 23px;
+}
+.icons{
+    display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.icons svg{
+    width: 60px;
+    height: 60px;
+    /* display: flex; */
+}
+.flex{
+    display: flex;
+    gap: 40px;
+    margin: auto; 
+
+}
+
+@media only screen and (max-width: 785px) {
+    .logo{
+        margin-top: 10px;
+        align-items: center;
+    }
+.main-section  {
+        font-size: 30px;
+        text-align: center;
+    }
+    .about{
+        width: 300px;
+        font-size: 20px;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .tokenomics img{
+        width: 250px;
+        height: 250px;
+        padding-bottom: 30px;
+    }
+    .tokenomics p{
+        width: 250px;
+        font-size: 17px;
+        padding: 5px;
+
+    }
+    .tokenomics p:hover{
+        font-size: 18px;
+    }
+    .hide-small{
+        display: none;
+    }
+}
+/* For big screens */
+@media only screen and (min-width: 785px) {
+    .hide{
+        display: none;
+    }
+    
+}
